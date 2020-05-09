@@ -1,4 +1,4 @@
-<script context="module">
+<script>
     import Dice6Svg from './svg/Dice6Svg.svelte';
     import { writable } from 'svelte/store';
 

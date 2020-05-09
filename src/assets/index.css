@@ -4,5 +4,6 @@
 
 
 /* Global styles */
-@import "./assets/colors.css";
-@import "./assets/global.css";
+@import "./colors.css";
+@import "fonts.css";
+@import "./global.css";
