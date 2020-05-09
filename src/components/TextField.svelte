@@ -1,4 +1,4 @@
-<input type="text">
+<input class="typography-input" type="text">
 
 <style>
     input {
@@ -6,6 +6,10 @@
         border: 1px solid var(--color-gray);
         border-radius: 6px;
         transition: box-shadow 0.2s ease-in-out;
+        color: var(--color-gunmetal);
+    }
+    input::placeholder {
+        color: var(--color-light-gray);
     }
     input:focus {
         outline: none;

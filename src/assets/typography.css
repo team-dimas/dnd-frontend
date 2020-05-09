@@ -11,3 +11,10 @@
     font-size: 12px;
     line-height: 16px;
 }
+
+.typography-input, .typography-input::placeholder {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
