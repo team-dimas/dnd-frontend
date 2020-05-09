@@ -1,0 +1,13 @@
+.typography-body {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.typography-caption {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}

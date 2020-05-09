@@ -1,10 +1,13 @@
 <script>
-    import GenerateRandomButton from "../components/GenerateRandomButton.svelte";
+    import Label from "../components/Label.svelte";
+    import TextField from "../components/TextField.svelte";
 </script>
 
 <style>
 
 </style>
 
-<GenerateRandomButton/>
-
+<Label>
+    <span slot="label">Text</span>
+    <TextField/>
+</Label>

@@ -3,4 +3,9 @@ body {
     --color-black: #000000;
     --color-rich-black: #010719;
     --color-gunmetal: #323947;
+    --color-soft-pink: #DD5AA9;
+    --color-very-soft-pink: #EC87B3;
+   --color-very-dark-gray: #646464;
+    --color-gray: #A9A9A9;
+    --color-light-gray: #DADADA;
 }

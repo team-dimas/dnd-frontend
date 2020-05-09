@@ -4,6 +4,23 @@
     let dice;
 </script>
 
-<AnimatedDice6 height="24" width="24" bind:this={dice}/>
+<button on:click={dice.animate} class="container">
+    <span class="typography-caption caption">
+        Generate Random
+    </span>
 
-<button on:click={dice.animate}> Spin!</button>
+    <AnimatedDice6 height="16" width="16" bind:this={dice}/>
+</button>
+
+<style>
+    .container {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        border: none;
+    }
+    .caption {
+        text-transform: uppercase;
+        margin-right: 4px;
+    }
+</style>
