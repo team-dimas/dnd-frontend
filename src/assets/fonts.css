@@ -161,3 +161,21 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: "Oleo Script";
+    src: url("font/woff2/OleoScript-Regular.woff2") format('woff2'),
+         url("font/woff/OleoScript-Regular.woff") format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Oleo Script";
+    src: url("font/woff2/OleoScript-Bold.woff2") format('woff2'),
+         url("font/woff/OleoScript-Bold.woff") format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+

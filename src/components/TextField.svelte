@@ -1,4 +1,19 @@
-<input class="typography-input" type="text">
+<script>
+    import { getContext } from 'svelte';
+    import { FORM_FIELD_CONTEXT } from '../helpers/context-keys';
+
+    export let value;
+
+    const fieldContext = getContext(FORM_FIELD_CONTEXT);
+    const id = fieldContext && fieldContext.id;
+</script>
+
+<input
+    bind:value
+    class="typography-input"
+    type="text"
+    {id}
+>
 
 <style>
     input {
@@ -7,6 +22,7 @@
         border-radius: 6px;
         transition: box-shadow 0.2s ease-in-out;
         color: var(--color-gunmetal);
+        background: var(--color-white);
     }
     input::placeholder {
         color: var(--color-light-gray);

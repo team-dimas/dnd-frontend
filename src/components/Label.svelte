@@ -1,16 +1,16 @@
+<script>
+    import { getContext } from 'svelte';
+    import { FORM_FIELD_CONTEXT } from '../helpers/context-keys';
 
-<div class="container">
-    <label class="typography-caption label">
-        <slot name="label"/>
-    </label>
+    const fieldContext = getContext(FORM_FIELD_CONTEXT);
+    const id = fieldContext && fieldContext.id;
+</script>
+
+<label class="typography-caption label" for={id}>
     <slot/>
-</div>
+</label>
 
 <style>
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
     .label {
         color: var(--color-very-dark-gray);
     }
