@@ -1,4 +1,9 @@
 {
-	"baseUrl": "http://localhost:3000",
-	"video": false
+	"video": false,
+	"viewportHeight": 300,
+	"viewportWidth": 300,
+	"testFiles": "**/*spec.js",
+	"experimentalComponentTesting": true,
+	"componentFolder": "src/components/library",
+	"nodeVersion": "system"
 }

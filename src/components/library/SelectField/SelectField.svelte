@@ -1,8 +1,8 @@
 <script>
-    import AngleSvg from './svg/AngleSvg.svelte';
-    import Popup from './Popup.svelte';
+    import AngleSvg from '../../svg/AngleSvg.svelte';
+    import Popup from '../Popup/Popup.svelte';
     import { getContext, setContext } from 'svelte';
-    import { FORM_FIELD_CONTEXT, SELECT_FIELD_CONTEXT } from '../helpers/context-keys';
+    import { FORM_FIELD_CONTEXT, SELECT_FIELD_CONTEXT } from '../../../helpers/context-keys';
     import { writable, derived } from 'svelte/store';
     import { fly } from 'svelte/transition';
 

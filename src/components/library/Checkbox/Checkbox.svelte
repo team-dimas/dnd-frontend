@@ -1,6 +1,6 @@
 <script>
-    import CheckSvg from './svg/CheckSvg.svelte';
-    import { generateUniqueId } from '../helpers/id.helper';
+    import CheckSvg from '../../svg/CheckSvg.svelte';
+    import { generateUniqueId } from '../../../helpers/id.helper';
 
     export let value;
 

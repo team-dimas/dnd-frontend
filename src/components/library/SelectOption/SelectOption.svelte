@@ -1,6 +1,6 @@
 <script>
     import { getContext } from 'svelte';
-    import { SELECT_FIELD_CONTEXT } from '../helpers/context-keys';
+    import { SELECT_FIELD_CONTEXT } from '../../../helpers/context-keys';
 
     export let value;
     let selected;

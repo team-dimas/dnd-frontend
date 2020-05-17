@@ -1,5 +1,5 @@
 <script>
-    import AnimatedDice6 from './AnimatedDice6.svelte';
+    import AnimatedDice6 from '../AnimatedDice6/AnimatedDice6.svelte';
 
     let dice;
 </script>
