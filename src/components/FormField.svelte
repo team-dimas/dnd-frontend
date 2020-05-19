@@ -1,7 +1,7 @@
 <script>
     import { setContext } from 'svelte';
-    import { FORM_FIELD_CONTEXT } from '../../../helpers/context-keys';
-    import { generateUniqueId } from '../../../helpers/id.helper';
+    import { FORM_FIELD_CONTEXT } from '../helpers/context-keys';
+    import { generateUniqueId } from '../helpers/id.helper';
 
     setContext(FORM_FIELD_CONTEXT, {
         id: generateUniqueId(),

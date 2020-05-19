@@ -2,7 +2,7 @@
     import {
         getBoundingRectRelativeToContainer,
         relocateTargetElementToContainer,
-    } from '../../../helpers/dom.helper';
+    } from '../helpers/dom.helper';
     import { fade } from 'svelte/transition';
 
     export let visible;

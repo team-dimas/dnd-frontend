@@ -1,8 +1,8 @@
 <script>
-    import AngleSvg from '../../svg/AngleSvg.svelte';
-    import Popup from '../Popup/Popup.svelte';
+    import AngleSvg from './svg/AngleSvg.svelte';
+    import Popup from './Popup.svelte';
     import { getContext, setContext } from 'svelte';
-    import { FORM_FIELD_CONTEXT, SELECT_FIELD_CONTEXT } from '../../../helpers/context-keys';
+    import { FORM_FIELD_CONTEXT, SELECT_FIELD_CONTEXT } from '../helpers/context-keys';
     import { writable, derived } from 'svelte/store';
     import { fly } from 'svelte/transition';
 
@@ -14,7 +14,7 @@
     let popupVisible;
 
     const fieldContext = getContext(FORM_FIELD_CONTEXT);
-    const id = fieldContext && fieldContext.id;
+    const id = fieldContext && fieldContext.id || '';
 
     $: valueStore.set(value);
 

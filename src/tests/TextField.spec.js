@@ -1,4 +1,4 @@
-import TextField from './TextField.svelte'
+import TextField from '../components/TextField.svelte'
 import { mount } from 'cypress-svelte-unit-test'
 
 it('Checks value', () => {
@@ -7,5 +7,5 @@ it('Checks value', () => {
             value: 'Test',
         },
     })
-    cy.get('input').should('have.value', 'Test1')
+    cy.get('input').should('have.value', 'Test')
 })

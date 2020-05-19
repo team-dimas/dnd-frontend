@@ -1,5 +1,5 @@
 <script>
-    import Dice6Svg from '../../svg/Dice6Svg.svelte';
+    import Dice6Svg from './svg/Dice6Svg.svelte';
     import { writable } from 'svelte/store';
 
     const ANIMATION_SEQUENCE_LENGTH = 10;

@@ -4,6 +4,6 @@
 	"viewportWidth": 300,
 	"testFiles": "**/*spec.js",
 	"experimentalComponentTesting": true,
-	"componentFolder": "src/components/library",
+	"componentFolder": "src/tests",
 	"nodeVersion": "system"
 }
